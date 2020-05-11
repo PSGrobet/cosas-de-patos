@@ -1,0 +1,59 @@
+body {
+    background-color: lightcyan;
+    color: darkslategray;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: lightseagreen;
+    margin-top: 0;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.5em;
+}
+
+header .menu {
+    display: flex;
+}
+
+header .menu .menu-item {
+    flex: auto;
+    font-variant: small-caps;
+}
+
+main {
+    padding: 20px 0 50px 0;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#duck-talk {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#duck-talk .cuak {
+    font-size: 1.5em;
+    font-family: monospace;
+    letter-spacing: 0.5em;
+    color: darkgoldenrod;
+    font-weight: bolder;
+    margin: 20px 80px 20px 80px;
+}
+
+.parvada {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-pato {
+    width: 100px;
+}
