@@ -35,6 +35,10 @@ main {
     font-family: 'Josefin Slab', serif;
 }
 
+main h1 {
+    letter-spacing: 0.5em;
+}
+
 #duck-talk {
     margin-top: 40px;
     display: flex;
