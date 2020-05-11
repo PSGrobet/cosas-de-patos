@@ -14,39 +14,38 @@ header {
 
 header h1 {
     font-size: 3em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Major Mono Display', monospace;
     letter-spacing: 0.5em;
+    font-variant: small-caps;
 }
 
-header .menu {
+header .menu, #duck-talk {
     display: flex;
 }
 
-header .menu .menu-item {
+header .menu .menu-item, #duck-talk {
     flex: auto;
+    font-family: 'Major Mono Display', monospace;
     font-variant: small-caps;
 }
 
 main {
     padding: 20px 0 50px 0;
     margin-top: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    font-family: 'Josefin Slab', serif;
 }
 
 #duck-talk {
     margin-top: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 #duck-talk .cuak {
     font-size: 1.5em;
-    font-family: monospace;
     letter-spacing: 0.5em;
     color: darkgoldenrod;
     font-weight: bolder;
-    margin: 20px 80px 20px 80px;
 }
 
 .parvada {
@@ -56,4 +55,25 @@ main {
 }
 .img-pato {
     width: 100px;
+}
+
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 3em;
+        font-family: 'Major Mono Display', monospace;
+        font-variant: small-caps;
+    }
+    
+    #duck-talk {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    #duck-talk .cuak {
+        font-size: 1.5em;
+        color: darkgoldenrod;
+        font-weight: bolder;
+    }
 }
